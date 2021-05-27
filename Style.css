@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato:ital,wght@1,300;1,400&family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar-brand{
+    font-family: comfortaa;
+    font-size: 25px;
+    font-weight: 600;
+    color: yellowgreen !important;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: rgb(87, 108, 228);
+    font-family: raleway;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color:greenyellow !important;
+}
+
+.active .nav-link{
+    color:yellowgreen !important;
+}
+
+.nav-link{
+    font-size: 19px;
+}
+
+.site-content{
+    background-image: url(/images/bg01.jfif);
+    border-radius: 25px;
+}
+
+.site-head{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: raleway;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.site-para{
+    color: yellowgreen;
+    font-family: raleway;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.site-btn1, .site-btn2{
+    border: 2px solid yellowgreen;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 800;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+/**************started product page************/
+
+.Products .heading1{
+    margin-top: 5%;
+}
+
+.Products .heading2{
+    margin-bottom: 3%;
+}
+
+.Products .heading1,.Products .heading2{
+    text-transform: uppercase;
+    font-family: comfortaa;
+    font-size: 35px;
+    color: rgb(134, 134, 134);
+}
+
+.Products .para{
+    margin-bottom: 3%;
+    width: 60%;
+    margin-left: 22%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: raleway;
+    color: yellowgreen;
+}
+
+.Products{
+    margin-bottom: 6%;
+}
+
+.Products .card{
+    width: 20rem;
+}
+/*********started youtube page***********/
+
+.media{
+    background-image: url(/images/you.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.media .heading1{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-family: comfortaa;
+    width: 80%;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.media .para{
+    width: 80%;
+    font-family: raleway;
+    color: whitesmoke;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.media .youtube{
+    color: red;
+    font-weight: 600;
+}
+
+.media .btn{
+    width: 40%;
+    margin-bottom: 12%;
+    color: whitesmoke;
+    padding: 2% 2%;
+    font-size: 20px;
+}
+
+.share{
+    margin-top: 5%;
+}
+
+.share i{
+    color: rgb(76, 77, 77);
+}
+
+.share .para{
+    color: rgb(117, 116, 116);
+}
+
+/***********started joinus page**************/
+
+.joinus{
+    margin-top: 5%;
+}
+
+.joinus a{
+    color:  blue;
+    font-size: 25px;
+}
+
+.joinus .row .col-md-7, .col-md-5{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.joinus h3{
+    color: yellowgreen;
+    font-size: 32px;
+    font-family:comfortaa;
+    margin-bottom:7%;
+}
+
+.joinus .para{
+    margin-top: 6%;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/**************started social page***********/
+
+.Social i{
+    font-size: 25px;
+    color: grey;
+}
